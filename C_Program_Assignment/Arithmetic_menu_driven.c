@@ -8,7 +8,7 @@ int main()
     printf("Enter two number: ");
     scanf("%f %f",&a, &b);
 
-    printf("\nMenu");
+    printf("\nMenu"); 
     printf("\n1. Addition");
     printf("\n2. Subtraction");
     printf("\n3. Multiplication");
