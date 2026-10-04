@@ -1,4 +1,3 @@
-
 import tkinter as tk
 def change_text():
   label.config(text="Welcome to MCA")
