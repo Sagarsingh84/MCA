@@ -9,6 +9,6 @@ windpw.geometry("400x300")
 label=tk.Label(window, text="Click the button")
 label.pack(pady=20)
 
-button=tk.Button(window, text="Click me", command=change_text)
+button=tk.Button(window, text="Click Me", command=change_text)
 button.pack()
 window.mainloop()
