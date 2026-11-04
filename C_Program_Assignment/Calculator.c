@@ -1,7 +1,5 @@
  #include <stdio.h>
-
 int main() {
-    
     int a,b;
     int choice;
     printf("\n1.Additon\n2.Substraction\n3.Multiplication\n4.Division\n");
