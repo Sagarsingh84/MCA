@@ -10,7 +10,5 @@ int main()
         fact = fact * i;
     }
     printf("Factorial = %d", fact);
-
     return 0;
-
 }
