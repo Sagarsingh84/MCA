@@ -1,9 +1,7 @@
 #include <stdio.h>
-
 int main()
 {
     int i, j, k, n;
-
     printf("Enter value of n: ");
     scanf("%d", &n);
 
