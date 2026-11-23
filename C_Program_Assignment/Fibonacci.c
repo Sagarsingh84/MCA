@@ -1,16 +1,14 @@
 #include<stdio.h>
 int main()
 {
-  int n;
-  printf("Enter value of term:");
-  scanf("%d",&n);
-  
-  int a=0,b=1;
-  for(int i=1;i<=n;i++){
-    printf("%d\t",a);
-    int c=a+b;
-    a=b;
-    b=c;
-  } 
-  return 0;
+    int n, fact = 1;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    for (int i=1; i<=n; i++)
+    {
+        fact = fact * i;
+    }
+    printf("Factorial = %d", fact);
+    return 0;
 }
